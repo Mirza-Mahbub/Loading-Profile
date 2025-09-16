@@ -179,20 +179,11 @@
   .table {
     display: table;
   }
-  .h-2 {
-    height: calc(var(--spacing) * 2);
-  }
-  .h-2\.5 {
-    height: calc(var(--spacing) * 2.5);
-  }
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
   .h-12 {
     height: calc(var(--spacing) * 12);
-  }
-  .h-16 {
-    height: calc(var(--spacing) * 16);
   }
   .h-20 {
     height: calc(var(--spacing) * 20);
@@ -200,23 +191,14 @@
   .h-screen {
     height: 100vh;
   }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
-  }
-  .w-12 {
-    width: calc(var(--spacing) * 12);
-  }
-  .w-16 {
-    width: calc(var(--spacing) * 16);
-  }
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
+  .w-24 {
+    width: calc(var(--spacing) * 24);
+  }
   .w-\[60\%\] {
     width: 60%;
-  }
-  .w-\[90\%\] {
-    width: 90%;
   }
   .w-full {
     width: 100%;
@@ -233,20 +215,11 @@
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
-  .animate-\[shimmer_1s_infinite\] {
-    animation: shimmer 1s infinite;
-  }
   .animate-\[shimmer_2s_infinite\] {
     animation: shimmer 2s infinite;
   }
-  .animate-\[shimmer_4s_infinite\] {
-    animation: shimmer 4s infinite;
-  }
   .animate-pulse {
     animation: var(--animate-pulse);
-  }
-  .animate-spin {
-    animation: var(--animate-spin);
   }
   .resize {
     resize: both;
@@ -269,9 +242,6 @@
   .rounded-\[50\%\] {
     border-radius: 50%;
   }
-  .rounded-full {
-    border-radius: calc(infinity * 1px);
-  }
   .rounded-md {
     border-radius: var(--radius-md);
   }
@@ -279,20 +249,11 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-indigo-500 {
-    background-color: var(--color-indigo-500);
-  }
   .bg-slate-300 {
     background-color: var(--color-slate-300);
   }
-  .bg-violet-500 {
-    background-color: var(--color-violet-500);
-  }
   .bg-\[linear-gradient\(120deg\,_\#cbd5e1_30\%\,_\#e2e8f0_38\%\,_\#e2e8f0_40\%\,_\#cbd5e1_48\%\)\] {
     background-image: linear-gradient(120deg, #cbd5e1 30%, #e2e8f0 38%, #e2e8f0 40%, #cbd5e1 48%);
-  }
-  .bg-\[linear-gradient\(120deg\,_\#e5e5e5_30\%\,_\#f0f0f0_38\%\,_\#f0f0f0_40\%\,_\#e5e5e5_48\%\)\] {
-    background-image: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%);
   }
   .bg-\[length\:200\%_100\%\] {
     background-size: 200% 100%;
@@ -303,56 +264,12 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
-  .px-5 {
-    padding-inline: calc(var(--spacing) * 5);
-  }
-  .py-2 {
-    padding-block: calc(var(--spacing) * 2);
-  }
-  .py-2\.5 {
-    padding-block: calc(var(--spacing) * 2.5);
-  }
-  .text-xl {
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
-  }
-  .text-white {
-    color: var(--color-white);
-  }
   .underline {
     text-decoration-line: underline;
   }
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
-  }
-  .hover\:bg-violet-600 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-violet-600);
-      }
-    }
-  }
-  .focus\:outline-2 {
-    &:focus {
-      outline-style: var(--tw-outline-style);
-      outline-width: 2px;
-    }
-  }
-  .focus\:outline-offset-2 {
-    &:focus {
-      outline-offset: 2px;
-    }
-  }
-  .focus\:outline-violet-500 {
-    &:focus {
-      outline-color: var(--color-violet-500);
-    }
-  }
-  .active\:bg-violet-700 {
-    &:active {
-      background-color: var(--color-violet-700);
-    }
   }
 }
 @property --tw-rotate-x {
