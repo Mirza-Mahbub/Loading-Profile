@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Pulse</title>
+    <style>
+      @keyframes shimmer {
+        100% {
+          background-position: -100% 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex justify-center items-center w-screen h-screen">
+      <div class="animate-pulse w-xl rounded-md p-5">
+        <div class="flex items-center w-full gap-2.5">
+          <!-- the circle div -->
+          <div
+            class="h-20 w-20 rounded-[50%] bg-slate-300 bg-[linear-gradient(120deg,_#cbd5e1_30%,_#e2e8f0_38%,_#e2e8f0_40%,_#cbd5e1_48%)] bg-[length:200%_100%] bg-[position:100%_0] animate-[shimmer_2s_infinite]"
+          ></div>
+          <div class="flex gap-2 flex-col w-full">
+            <!-- Title -->
+            <div
+              class="h-5 w-[60%] bg-slate-300 rounded-md bg-[linear-gradient(120deg,_#cbd5e1_30%,_#e2e8f0_38%,_#e2e8f0_40%,_#cbd5e1_48%)] bg-[length:200%_100%] bg-[position:100%_0] animate-[shimmer_2s_infinite]"
+            ></div>
+            <!-- Description -->
+            <div
+              class="h-12 w-full bg-slate-300 rounded-md bg-[linear-gradient(120deg,_#cbd5e1_30%,_#e2e8f0_38%,_#e2e8f0_40%,_#cbd5e1_48%)] bg-[length:200%_100%] bg-[position:100%_0] animate-[shimmer_2s_infinite]"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
